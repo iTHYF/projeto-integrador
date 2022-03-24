@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/index.css" rel="stylesheet">
+    <title>Sobre</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Genética</title>
+    <!--favicon (icone da página)-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../imagens/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../imagens/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../imagens/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../imagens/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../imagens/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../imagens/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../imagens/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../imagens/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../imagens/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../imagens/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../imagens/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon-16x16.png">
+    <link rel="manifest" href="../js/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <!--favicon (icone da página)-->
+    <!--cabecario-->
+    <div id="sobre-cabecario">
+        <table>
+            <tr>
+                <td id="mendel-girls-logo"><a href="../html/inicial.html" target="_self" rel="noopener noreferrer"><img src="../imagens/mendel-girls.png" alt="mendel-girls.png" height="200px" width="200px"></a></td>
+                <td id="insta-jess"><p ><a href="https://www.instagram.com/jessica_santos_410/" target="_blank" rel="noopener noreferrer"><img src="../imagens/insta-logo.png" alt="insta-logo.png" height="30px" width="30px"></a></p></td>
+                <td id="jess"><a href="https://www.instagram.com/jessica_santos_410/" target="_blank" rel="noopener noreferrer"><b>Jessica Vicente</b></a></td>
+                <td id="github-thyf"><p ><a href="https://github.com/iTHYF" target="_blank" rel="noopener noreferrer"><img src="../imagens/github-logo.png" alt="github-logo.png" height="30px" width="30px"></a></p></td>
+                <td id="thyf"><a href="https://github.com/iTHYF" target="_blank" rel="noopener noreferrer"><b>Thyfanne Dayane</b></a></td>
+            </tr>
+        </table>
+    </div>
+    <!--cabecario-->
+</head>
+<body>
+    <!--conteúdo da página-->
+    <div id="texto-s">
+        <h1 id="sobre-titulo"> 🛈 Sobre</h1>
+        <p id="pp"><b>Nome de guerra:</p>
+        <div id="nome-guerra-center"><img src="../imagens/mendel-girls.png" alt="mendel-girls.png" height="200px" width="250px" ></div> 
+        <h2 id="resumo-center">&#128193 - Resumo </h2>
+        <p class="container-resumo">
+            Genética é um ramo da biologia que estuda os genes, como as
+            características genéticas são repassadas de pais para filhos,
+            assim como a variabilidade genética e as mutações de cada
+            espécie. Considerado o pai da genética, Gregor Mendel foi
+            responsável pela criação de leis que explicavam a funcionalidade
+            da hereditariedade e, junto delas, também determinou conceitos
+            fundamentais para o entendimento da genética.
+        </p>
+        
+        <h2 id="quem-somos-titulo"> &#128193 - Quem somos?</h2>
+        <div class="container-quem-somos">
+            <h3 id="pa1">Jessica Vicente</h3>
+            <div id="jessica-img"><img id="j-img"src="../imagens/jessica-vicente.png" alt="jessica-vicente.png" height="300px" width="350px" ></div> 
+                <p>Sou aluna do terceiro ano do curso Técnico Integrado em Informática no IFRN Campus Parnamirim. Atualmente tenho 18 anos, gosto de conhecer pessoas, lugares, aprender e viver novas experiências.</p>
+            <h3 id="pa">Thyfanne Dayane</h3>
+            <div id="thyfanne-img"><img id="t-img" src="../imagens/thyfanne-dayane.png" alt="thyfanne-dayane.png" height="300px" width="300px" ></div> 
+                <p>Aluna do terceiro ano do IFRN Campus Parnamirim  do Curso Técnico Integrado em Informática, turno vespertino. Tenho 19 anos e gosto de aprender coisas novas! &#128516	 </p>
+        </div>
+    </div>
+    <!--conteúdo da página-->
+
+    <!--javascript para esconder e mostrar "Resumo" e "Quem somos?"-->
+    <script>
+        var resumo  = document.getElementById('resumo-center');
+        var containerr = document.querySelector('.container-resumo');
+        resumo.addEventListener('click', function() {
+            if(containerr.style.display === 'block'){
+                containerr.style.display = 'none';
+            } else {
+                containerr.style.display = 'block';
+            }
+        });
+        var quemsomos = document.getElementById('quem-somos-titulo');
+        var containerqs = document.querySelector('.container-quem-somos');
+        quemsomos.addEventListener('click', function() {
+            if(containerqs.style.display === 'block'){
+                containerqs.style.display = 'none';
+            } else {
+                containerqs.style.display = 'block';
+            }
+        });
+    </script>
+    <!--javascript para esconder e mostrar "Resumo" e "Quem somos?"-->
+</body>
+<!--rodape da página-->
+<footer id="rodape-sobre">
+    <table>
+        <div>
+            <tr>
+                <td id="seta"><a href="../html/inicial.html" target="_self"><img  src="../imagens/seta.png" alt="seta.png" width="70px" height="70px"></a></td>
+                <td id="insta-jess-rodape"><p ><a href="https://www.instagram.com/jessica_santos_410/" target="_blank" rel="noopener noreferrer"><img src="../imagens/insta-logo.png" alt="insta-logo.png" height="30px" width="30px"></a></p></td>
+                <td id="jess-rodape"><a href="https://www.instagram.com/jessica_santos_410/" target="_blank"  rel="noopener noreferrer"><b>Jessica Vicente</b></a></td>
+                <td id="github-thyf-rodape"><p ><a href="https://github.com/iTHYF" target="_blank" rel="noopener noreferrer"><img src="../imagens/github-logo.png" alt="insta-logo.png" height="30px" width="30px"></a></p></td>
+                <td id="thyf-rodape"><a href="https://github.com/iTHYF" target="_blank" rel="noopener noreferrer"><b>Thyfanne Dayane</b></a></td>
+                <td id="rodape-referencia"><a href="../html/referencia.html" target="_self" rel="noopener noreferrer"><img src="../imagens/referencias.png" alt="referencias" width="100px" height="100px"></a></td>
+            </tr>
+            <!--voltar ao topo da página-->
+                <a id="setta" href="#">&#9650;</a>
+            <!--voltar ao topo da página-->
+        </div>
+    </table>
+</footer>
+<!--rodape da página-->
+</html>

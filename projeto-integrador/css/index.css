@@ -1,0 +1,343 @@
+/*css de geral*/
+*{
+    font-family: Inter,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-sans;
+    color:rgb(255, 255, 255);
+    position:static
+}
+#inicial-body{
+    margin: 0px;
+}
+head{
+    width: 950x;
+}
+body{
+    background-color: rgb(75, 55, 122);
+    display: inline-block;
+    margin: 0 0 0 0px;
+    width: 100%;
+    height: 100%;
+}
+
+h3,h4,#ul-mutacoes, #ul-cruzamento,#ul-genetica, #ul-mendel{
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/*css do botão para voltar para o início da página*/
+#setta{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px plum;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+   
+/*css dos textos das páginas*/
+#texto-m, #texto-ml, #texto-g{
+    display: inline-block;
+    padding: 0px;
+    height: 2000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+}    
+#texto-s{
+    padding: 0px;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+#para,#parag,#paragrafo,#pp,#pa, #pa1 {
+    text-indent: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+/*css das "pastas" da página inicial*/
+#li-inicial-1,#li-inicial-2,#li-inicial-3,#li-inicial-4,#li-inicial-5{
+    list-style:none;
+    display: inline;
+    margin: 20px;
+}
+#ul-ini{
+    text-align: center;
+    margin-top: 50x;
+    position:static;
+    margin-top: 0;
+
+}
+/*css dos cabeçarios*/
+#inicial-cabecario, #referencias-cabecario, #mutacoes-cabecario, #mendel-cabecario, #genetica-cabecario, #sobre-cabecario{
+    background-color: rgba(146, 101, 189, 0.808);
+    height: 5%;
+    width: 100%;
+    padding:0px;  
+    border-bottom: solid 20px rgba(160, 106, 211, 0.808);
+    position: static;
+    margin-bottom: 150;
+}
+/*css dos rodapés*/
+#rodape-mutacoes, #rodape-mendel, #rodape-genetica, #rodape-sobre{
+    background-color: rgba(146, 101, 189, 0.808);
+    height: 350;
+    width: 100%;
+    padding:0px;
+    border-bottom: solid 20px rgba(160, 106, 211, 0.808);
+    position: static;
+}
+/*css dos botões da página de referências*/
+#showhide-mutacoes, #showhide-cruzamento, #showhide-genetica, #showhide-mendel{
+    background-color: rgb(104, 31, 104);
+    border-bottom:solid 5px rgb(88, 26, 88) ;
+    border-radius: 5px;
+    font-family:monospace;
+    margin-left: 50%;
+    margin-right: 35%;
+
+}
+
+/*css dos botões da página de referência*/
+button{
+    background-color: rgb(36, 68, 110);
+    margin-left: 650px;
+}
+/*css para centralizar os títulos*/
+#inicial-h1{
+    padding-top: 25px;
+    text-align: center;
+}
+#h1-referencias{
+    text-align: center;
+}
+#mutacoes-titulo,#experimento-mendel-titulo, #genetica-titulo, #sobre-titulo, #quem-somos-titulo{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+/*css dos sumários*/
+#sumariom, #sumariog, #sumarioml{
+    display:none;
+    margin-left: 30%;
+    margin-right: 40%;
+    position: relative;
+
+}
+#sumario-mutacoes, #sumario-mendel, #sumario-genetica{
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 100%;
+    list-style: none;
+    
+}
+#suma, #suma2, #suma3{
+    margin-top:9%;
+    margin-bottom: 30px;
+    margin-left: 44%;
+    margin-right: 40%;
+    text-indent: 50px;
+}
+#show-hide-sumario-mutacoes, #show-hide-sumario-genetica, #show-hide-sumario-leis{
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 18%;
+    padding-right: 40%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(75, 55, 122);
+    border: none;
+    border-radius: 15px;
+    margin-left: 370px;
+    position: static;
+}
+
+#show-hide-sumario-mutacoes, #show-hide-sumario-genetica, #show-hide-sumario-leis:active  {
+  background-color: rgb(75, 55, 122);
+  transform: translateY(4px);
+}
+
+#tres-pontos,#tres-pontos-2, #tres-pontos-3{
+    width:150px;
+    height:150px;
+
+}
+/*css para esconder os textos assim que o usuário entrar na página*/
+.container-quem-somos,.container-resumo{
+    display: none;
+
+}
+.container{
+    display: none;
+}
+.container-mutacoes, .container-cruzamento, .container-genetica, .container-mendel{
+    display: none;
+}
+/*css da seta do rodape*/
+#seta{
+    padding-left: 50px;
+    padding-right: 100px;
+    
+}
+footer{
+    padding-top: 100px;
+    width: 100%;
+}
+/*css para colocar nosso insta no rodapé e cabeçario*/
+#jess, #jess-rodape{
+    padding-right: 100px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#insta-jess, #insta-jess-rodape{
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+}
+#github-thyf, #github-thyf-rodape{
+    padding-bottom: 15px;
+}
+#thyf, #thyf-rodape{
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 250px;
+    
+}
+#rodape-referencia{
+    padding-left: 150x;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+/*css da nossa logo*/
+#mendel-girls-logo{
+    padding-left:  25px;
+
+}
+/*css da borda das imagens*/
+#mt-img, #sol-img, #bv-img, #dna-img, #down-img, #turner-img, #mendel-img, #genotipo-img, #darwin-img, #flores-diagrama-img, #ervilhas-diagrama-img, #ervilha-diagrama-img{
+    border-radius: 15%;
+    border-bottom:solid 5px rgb(61, 0, 61);
+    border-left:solid 7px rgb(61, 0, 61)
+}
+/*css para centralizar alguns elementos*/
+#m-img-center, #s-img-center, #ml-img-center, #bv-img-center, #dna-img-center, #d-img-center, #t-img-center, #mapa-mendel-center, #sobre-center,#nome-guerra-center, #resumo-center, #j-img,#t-img, #thyfanne-img,#jessica-img, #gene, #genotipo-center,#darwin-center,#flores-center, #ervilhas-center, #ervilha-center{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#resumo-center{
+    margin-right: 65px;
+}
+/*css dos mapas mentais*/
+#mapa-mendel-center, #mapa-mutacoes-center, #mapa-genetica-center{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*css da legenda das fotos (para adicionar os créditos)*/
+#legenda-turner,#legenda-mendel{
+    font-size: 10px;
+    text-align: justify;
+}
+
+/*css das tabelas*/
+#mutacoes-cromossomicas-tabela, #mutacoes-numericas-tabela, #mutacoes-genicas-tabela{
+    border-spacing: 0px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 250;
+    margin-right: 250;
+}
+
+#mutacoes-genicas-linha1, #mutacoes-genicas-linha1-1, #mutacoes-genicas-linha2, #mutacoes-genicas-linha2-2, #mutacoes-genicas-linha3, #mutacoes-genicas-linha3-3, #mutacoes-genicas-linha4, #mutacoes-genicas-linha4-4{
+    border-bottom: solid 2px rgb(56, 8, 56);
+    border-right: solid 2px rgb(56, 8, 56);
+    background-color: rgb(32, 88, 133);
+    width: 100;
+    height: 100;
+}
+
+#cruzamento-genetico-tabela{
+    border-spacing: 0px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    margin-right: 30%;
+    
+}
+
+#cruzamento-genetica-linha-0, #cruzamento-genetica-linha-1, #cruzamento-genetica-linha-2, #cruzamento-genetica-linha-3, #cruzamento-genetica-linha-4, #cruzamento-genetica-linha-5, #cruzamento-genetica-linha-6, #cruzamento-genetica-linha-7,#cruzamento-genetica-linha-8{
+    color: rgb(218, 255, 209);
+    border-bottom: solid 2px rgb(56, 8, 56);
+    border-right: solid 2px rgb(56, 8, 56);
+    background-color: rgb(32, 88, 133);
+    padding: 15px;
+}
+
+#mutacoes-cromossomicas-linha1, #mutacoes-cromossomicas-linha1-1,#mutacoes-cromossomicas-linha1-2, #mutacoes-cromossomicas-linha2, #mutacoes-cromossomicas-linha2-1,#mutacoes-cromossomicas-linha2-2, #mutacoes-cromossomicas-linha3, #mutacoes-cromossomicas-linha3-1,#mutacoes-cromossomicas-linha3-2,#mutacoes-cromossomicas-linha4,#mutacoes-cromossomicas-linha4-1,#mutacoes-cromossomicas-linha4-2{
+    border-bottom: solid 2px rgb(56, 8, 56);
+    border-right: solid 2px rgb(56, 8, 56);
+    background-color: rgb(32, 88, 133);
+}
+
+#mutacoes-numericas-linha1,#mutacoes-numericas-linha1-1,#mutacoes-numericas-linha1-2, #mutacoes-numericas-linha2, #mutacoes-numericas-linha2-1, #mutacoes-numericas-linha2-2{
+    border-bottom: solid 2px rgb(56, 8, 56);
+    border-right: solid 2px rgb(56, 8, 56);
+    background-color: rgb(32, 88, 133);
+}
+/*css das tabelas*/
+
+#mendel-mapa-zoom, #mutacoes-mapa-zoom, #genetica-mapa-zoom{
+    border: solid 5px rgb(129, 38, 214);
+    margin-bottom: 50px;
+}
+/*css das nossas fotos na página sobre*/
+#jessica-img,#thyfanne-img{
+    height:310px;
+}
+#j-img, #t-img{
+    border-radius: 30px;
+    border-bottom: solid 5px blueviolet;
+    border-left: solid 5px blueviolet ;
+
+/*css pra mudar a cor do link*/
+}
+#aqui{
+    color: rgb(238, 120, 179);
+    
+}
+/*h1, h3 e h4 das referências*/
+#mu, #cr, #gee, #bem, h4{
+    text-indent: 50px;
+}
+#h1-referencias{
+    text-indent: 20px;
+}
